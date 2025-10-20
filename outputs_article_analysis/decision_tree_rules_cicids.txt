@@ -1,0 +1,36 @@
+Decision Tree Rules - CICIDS
+==================================================
+
+Tree Depth: 10
+Number of Leaves: 218
+Train Accuracy: 0.985
+Test Accuracy: 0.863
+Overfitting Gap: 0.121
+
+Tree Rules (first 3 levels):
+------------------------------
+|--- feature_19 <= 0.00
+|   |--- class: 1
+|--- feature_19 >  0.00
+|   |--- feature_2 <= 0.01
+|   |   |--- feature_25 <= 0.22
+|   |   |   |--- feature_23 <= 0.02
+|   |   |   |   |--- truncated branch of depth 7
+|   |   |   |--- feature_23 >  0.02
+|   |   |   |   |--- truncated branch of depth 7
+|   |   |--- feature_25 >  0.22
+|   |   |   |--- feature_8 <= 0.00
+|   |   |   |   |--- truncated branch of depth 7
+|   |   |   |--- feature_8 >  0.00
+|   |   |   |   |--- truncated branch of depth 7
+|   |--- feature_2 >  0.01
+|   |   |--- feature_14 <= 0.00
+|   |   |   |--- feature_9 <= 0.00
+|   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- feature_9 >  0.00
+|   |   |   |   |--- truncated branch of depth 7
+|   |   |--- feature_14 >  0.00
+|   |   |   |--- feature_23 <= 0.13
+|   |   |   |   |--- truncated branch of depth 7
+|   |   |   |--- feature_23 >  0.13
+|   |   |   |   |--- truncated branch of depth 6
